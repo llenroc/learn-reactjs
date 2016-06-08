@@ -1,0 +1,27 @@
+{
+  "name": "react-webpack-cookbook",
+  "private": true,
+  "version": "1.2.5",
+  "description": "SurviveJS - React",
+  "scripts": {
+    "test": "check-markdown-links manuscript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/survivejs/webpack.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/survivejs/webpack/issues"
+  },
+  "homepage": "https://github.com/survivejs/webpack",
+  "dependencies": {},
+  "devDependencies": {
+    "check-markdown-links": "^0.1.1"
+  }
+}
