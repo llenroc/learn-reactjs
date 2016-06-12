@@ -31,15 +31,17 @@ switch(process.env.npm_lifecycle_event) {
   case 'build':
     config = merge(
       common,
+      parts.minify(),
       {
         devtool: 'source-map'
       },
       parts.setupCSS(PATHS.app)
-      );
+    );
     break;
   default:
     config = merge(
       common,
+      parts.minify(),
       {
         devtool: 'source-map'
       },
