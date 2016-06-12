@@ -42,7 +42,7 @@ switch(process.env.npm_lifecycle_event) {
       common,
       {
         devtool: 'source-map'
-      }
+      },
       parts.setupCSS(PATHS.app),
       parts.devServer({
         host: process.env.HOST,
